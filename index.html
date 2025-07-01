@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Dev Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating Decorations -->
+  <div class="floating book"></div>
+  <div class="floating laptop"></div>
+  <div class="floating code"></div>
+
+  <div class="quiz-container">
+    <h1>Web Dev Quiz Game</h1>
+    <div id="quiz">
+      <div id="question" class="fade-in">Loading...</div>
+      <div id="options" class="options fade-in"></div>
+      <button id="next-btn">Next</button>
+      <div id="score-container" class="hide">
+        <h2>Your Score: <span id="score"></span></h2>
+        <button onclick="location.reload()"  id="next-btn">Play Again</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
